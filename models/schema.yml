@@ -1,0 +1,20 @@
+ersion: 2
+sources:
+  - name: raw
+    schema: gz_raw_data
+    description: raw data
+    tables:
+      - name: sales
+        identifier: raw_gz_sales
+        description: sales infomation
+        columns:
+          - name: date_date
+            description: date
+          - name: orders_id
+            description: orders id
+          - name: pdt_id
+            description: pdt id
+          - name: revenue
+            description: revenue
+          - name: quantity
+            description: quantity
