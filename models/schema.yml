@@ -24,6 +24,10 @@ sources:
         columns:
           - name: products_id
             description: product id
+            tests:
+              - unique
+              - not_null
+                
           - name: purchSE_PRICE AS purchase_price
             description: purchase price
       - name: ship
@@ -32,6 +36,10 @@ sources:
         columns:
           - name: orders_id
             description: orders id
+            tests:
+              - unique
+              - not_null
+        
           - name: shipping_fee
             description: shipping fee
           - name: shipping_fee_1
