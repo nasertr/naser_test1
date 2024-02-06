@@ -19,7 +19,7 @@ sources:
           - name: quantity
             description: quantity
       - name: product
-        identifier: raw_gz_product
+        identifier: raw_product
         description: product information
         columns:
           - name: products_id
