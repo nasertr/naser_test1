@@ -48,6 +48,14 @@ sources:
             description: log cost
           - name: ship_cost
             description: ship cost
+      - name: adwords
+        identifier: raw_gz_adwords
+      - name: bing
+        identifier: raw_gz_bing
+      - name: crito
+        identifier: raw_gz_criteo
+      - name: facebook
+        identifier: raw_gz_facebook
 models:
   - name: int_sales_margin
     description: this table includes margin calculation
